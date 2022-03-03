@@ -2,6 +2,7 @@
   package="com.maps">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
       android:name=".MainApplication"
@@ -21,5 +22,8 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
+       <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyDkbGaQqjBkL1EuWPPFUGa01Fji8Po9BKs"/>
     </application>
 </manifest>
